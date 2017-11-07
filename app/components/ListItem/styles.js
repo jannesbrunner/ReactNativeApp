@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 import colors from '../../config/colors';
 
+export const CEHVRON_SIZE = 25;
 export default StyleSheet.create({
 
     avatar: {

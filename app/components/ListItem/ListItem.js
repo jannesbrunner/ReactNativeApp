@@ -21,6 +21,13 @@ const ListItem = ({ contact, onPress}) => {
                  <Text style={styles.name}>{name}</Text>
                  <Text style={styles.email}>{contact.email}</Text>
              </View>    
+             <View>
+                 <Icon
+                 name="ios-arrow-forward"
+                 size={CHEVRON_SIZE}
+                 color={colors.subtleText}
+                 />
+             </View>
         </View>
        </TouchableHighlight>
     )
