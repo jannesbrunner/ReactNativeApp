@@ -11,7 +11,7 @@ const ListItem = ({ contact, onPress}) => {
        <TouchableHighlight
        onPress={onPress}
        >
-        <View>
+        <View style={styles.row}>
             <Image
                 source={{ uri: contact.picture.thumbnail }}
                 style={styles.avatar}
