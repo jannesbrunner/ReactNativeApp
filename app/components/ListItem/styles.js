@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import colors from '../../config/colors';
 
 export default StyleSheet.create({
 
@@ -14,7 +15,18 @@ export default StyleSheet.create({
         alignItems: 'center',
         paddingHorizontal: 15,
         paddingVertical: 8
-    }
+    },
+
+    name: {
+        fontSize: 16,
+        fontWeight: '500',
+        color: colors.primaryText
+    },
+
+    email: {
+        fontSize: 14,
+        color: colors.subtleText,
+    },
 
 
 });

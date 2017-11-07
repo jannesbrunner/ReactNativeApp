@@ -18,8 +18,8 @@ const ListItem = ({ contact, onPress}) => {
                 style={styles.avatar}
              />
              <View>
-                 <Text>{name}</Text>
-                 <Text>{contact.email}</Text>
+                 <Text style={styles.name}>{name}</Text>
+                 <Text style={styles.email}>{contact.email}</Text>
              </View>    
         </View>
        </TouchableHighlight>
