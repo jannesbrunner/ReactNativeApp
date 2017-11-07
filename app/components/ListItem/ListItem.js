@@ -8,9 +8,16 @@ import colors from '../../config/colors';
 
 const ListItem = ({ contact, onPress}) => {
     return (
+       <TouchableHighlight
+       onPress={onPress}
+       >
         <View>
-            <Text>{contact.email}</Text>
+            <Image
+                source={{ uri: contact.picture.thumbnail }}
+                style={styles.avatar}
+             />
         </View>
+       </TouchableHighlight>
     )
 };
 
