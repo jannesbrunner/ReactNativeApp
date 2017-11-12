@@ -1,8 +1,8 @@
 import React from 'react';
-import Contacts from './screens/Contacts';
+import { Navigator } from './config/router.js';
 
 const App = () => {
-    return <Contacts />; 
+    return <Navigator />; 
 }
 
 export default App;
