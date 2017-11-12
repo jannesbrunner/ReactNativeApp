@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import colors from '../../config/colors';
 
-export const CEHVRON_SIZE = 25;
+export const CEHVRON_SIZE = 35;
 export default StyleSheet.create({
 
     avatar: {
@@ -25,8 +25,18 @@ export default StyleSheet.create({
     },
 
     email: {
-        fontSize: 14,
+        fontSize: 13,
         color: colors.subtleText,
+    },
+
+    chevronContainer: {
+        
+        flex: 1,
+    },
+
+    chevron: {
+        alignSelf: 'flex-end',
+
     },
 
 
